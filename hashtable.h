@@ -5,7 +5,6 @@ typedef struct pair Pair;
 typedef struct hashtable HashTable;
 
 HashTable* initMap();
-void rehash(HashTable*);
 char* get(HashTable*,char*);
 void put(HashTable*,char*,char*);
 int contains(HashTable*,char*);
